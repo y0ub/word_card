@@ -7,6 +7,8 @@ y0_word_card::word_card::word_card()
     = static_cast<std::string>(getcwd(buff, sizeof(buff)));
   data_file_path_
     = current_dir + static_cast<std::string>("/data/data.xml");
+
+  std::filesystem::create_directory(current_dir + "/data");
 }
 
 void y0_word_card::word_card::print_menu()
