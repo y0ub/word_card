@@ -7,6 +7,3 @@ macOS 12
 ## 必要  
 boost  
 clang  
-# word_card
-# word_card
-# word_card
